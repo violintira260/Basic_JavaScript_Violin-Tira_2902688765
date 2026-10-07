@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Berat Badan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Kalkulator Berat Badan</h1>
+        <p>Hitung BMI dan perkiraan berat badan ideal Anda</p>
+
+        <label for="nama">Nama</label>
+        <input type="text" id="nama" placeholder="Masukkan nama">
+
+        <label for="tinggi">Tinggi Badan (cm)</label>
+        <input type="number" id="tinggi" placeholder="Contoh: 170">
+
+        <label for="berat">Berat Badan (kg)</label>
+        <input type="number" id="berat" placeholder="Contoh: 60">
+
+        <button onclick="hitungBerat()">Hitung</button>
+
+        <div id="hasil"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
